@@ -356,7 +356,7 @@
                 <div class="alert alert-success fw-bold"><i class="fa-solid fa-check-double"></i> Modulo inviato con successo</div>
             </div>
           </div> -->
-          <form @submit.prevent="sendForm()" method="post">
+          <form name="newsletter-papere" method="post" netlify>
             <div class="row">
               <div class="mb-3 col-12 input-group">
                 <input type="text" name="email" class="form-control bg-transparent border-0 rounded-0 border-bottom border-secondary-subtle" id="email" placeholder="Lascia la tua email qui..." required v-model="email"
