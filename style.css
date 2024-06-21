@@ -1,0 +1,23 @@
+@import url('stylescss.scss');
+
+/* REGOLE CSS GENERALI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3d3a38;
+    font-weight: 900;
+}
+
+p, span {
+    color: #3d3a38;
+    font-weight: 400;
+}

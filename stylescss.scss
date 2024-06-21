@@ -1,0 +1,153 @@
+/* IMPORTO IL FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/////////// 
+/// HEADER
+/////////// 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+
+    .brand {
+        text-align: center;
+        vertical-align: middle;
+
+        img {
+            width: 80px;
+        }
+    }
+
+    .section-nav {
+        height: 100px;
+    }
+
+    .nav-item {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .nav-link {
+        transition: 0.2s;
+
+        &.active,
+        &:hover {
+            color: #04df6c;
+            font-weight: 800;
+            transform: scale(1.1);
+            border-bottom: 3px solid #04df6c;
+        }
+    }
+}
+
+// JUMBOTRON 
+.img-jumbo {
+    background-image: url('./public/img/banner-image.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.bg-jumbo {
+    background-image: url('./public/img/banner-bg.png');
+}
+
+/////////// 
+/// MAIN
+///////////
+// Caratteristiche
+.column-text-img{
+    h2{
+        font-weight: 800;
+        padding: 20px 20px 0;
+    }
+
+    p{
+        padding: 0 20px;
+    }
+
+    img{
+        width: 70%;
+    }
+}
+
+// Recensioni
+.review {
+    text-align: center;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.review-text {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.review-rating .fa {
+    font-size: 1.2rem;
+    color: #ddd;
+
+    &.checked {
+        color: gold;
+    }
+}
+
+.review-author {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+
+    [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #777;
+    
+        &.active {
+            background-color: #2e45cc;
+        }
+    }
+}
+
+// ACCORDION
+.col-my-accordion{
+    button{
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+svg{
+    color: #2e45cc;
+    width: 50px;
+    height: 90px;
+}
+
+.social-svg{
+    svg{
+        color: #04df6c;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #bebebe;
+        border-radius: 50%;
+        padding: 0 10px;
+    }
+}
+
+.svg-send {
+    svg{
+        color: #04df6c;
+        width: 50px;
+        height: 50px;
+    }
+}
