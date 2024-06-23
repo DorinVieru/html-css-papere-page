@@ -37,3 +37,9 @@ p, span {
         font-size: 40px;
     }
 }
+
+@media (max-width: 768px) {
+    .nav-link::before {
+        width: 0 !important;
+    }
+}

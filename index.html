@@ -16,35 +16,42 @@
     <header>
       <div class="container-fluid">
         <div class="row py-2">
-          <div class="col-2 ps-5">
-            <a href="/" class="brand">
-              <img src="/public/img/logo.png" alt="Logo">
-            </a>
-          </div>
-          <div class="col-10 pe-5 d-flex align-items-center justify-content-end section-nav">
-            <nav>
-              <ul class="list-unstyled d-flex">
-                <li class="nav-item">
-                  <a class="nav-link" href="">Home</a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#punti-di-forza">I punti di forza</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#recensioni">Recensioni</a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#paperelle">Paperelle</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#faqs">FAQs</a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#newsletter">Newsletter</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <nav class="navbar navbar-expand-md box-shadow">
+            <div class="col-2 ps-5">
+              <a href="/" class="brand"><img src="/public/img/logo.png" alt="Logo"></a>
+            </div>
+            <button class="navbar-toggler btn-warning me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="offcanvasNavbar" class="col-10 align-items-md-end pe-md-5 ps-2 ps-md-0 offcanvas offcanvas-end w-75 w-lg-100" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <a href="/" class="brand"><img src="/public/img/logo.png" alt="Logo"></a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="list-unstyled d-flex navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#punti-di-forza">I punti di forza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#recensioni">Recensioni</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#paperelle">Paperelle</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#faqs">FAQs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#newsletter">Newsletter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
       </div>
     </header>
@@ -182,7 +189,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-md-5 col-lg-4 me-md-5 me-lg-0">
             <div class="card bg-transparent border border-0" style="width: 24rem;">
               <img src="./public/img/product-item1.png" class="card-img-top" alt="product-1">
               <div class="card-body px-0">
@@ -200,7 +207,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-5 col-lg-4 ms-md-5 ms-lg-0">
             <div class="card bg-transparent border border-0" style="width: 24rem;">
               <img src="./public/img/product-item2.png" class="card-img-top" alt="product-2">
               <div class="card-body px-0">
@@ -218,7 +225,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-5 col-lg-4">
             <div class="card bg-transparent border border-0" style="width: 24rem;">
               <img src="./public/img/product-item3.png" class="card-img-top" alt="product-3">
               <div class="card-body px-0">
@@ -245,11 +252,11 @@
       <div id="faqs" class="container my-5">
         <div class="row">
           <!-- IMG -->
-          <div class="col-6 pe-3">
-            <img class="img-fluid w-75 mt-5 rounded float-end" src="./public/img/single-image2.png" alt="faq">
+          <div class="col-12 col-md-6 pe-3">
+            <img class="img-fluid w-lg-75 mt-5 rounded float-lg-end" src="./public/img/single-image2.png" alt="faq">
           </div>
           <!-- TEXT -->
-          <div class="col-6 col-my-accordion">
+          <div class="col-12 col-md-6 col-my-accordion mt-3 mt-md-0">
             <h2 class="fw-bold">FAQs</h2>
             <div class="accordion pt-3" id="accordionExample">
               <div class="accordion-item">
@@ -318,7 +325,7 @@
       <!-- INFO -->
         <div class="container my-5 py-5">
         <div class="row">
-          <div class="col-4 text-center">
+          <div class="col-12 col-md-4 text-center">
             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
               <symbol xmlns="http://www.w3.org/2000/svg" id="balloon" viewBox="0 0 24 24">
                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5">
@@ -335,7 +342,7 @@
             <h4 class="fw-bold">100% Prodotto di Qualità</h4>
             <p> Abbiamo anche la possibilità di ritiro direttamente dallo stagno </p>
           </div>
-          <div class="col-4 text-center border-start border-end border-secondary-subtle">
+          <div class="col-12 col-md-4 text-center border-start border-end border-secondary-subtle">
             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
               <symbol xmlns="http://www.w3.org/2000/svg" id="bag-heart" viewBox="0 0 24 24">
                 <g fill="none">
@@ -352,7 +359,7 @@
             <h4 class="fw-bold fs-3">Spedizione Gratuita</h4>
             <p> Dal magazzino alla scrivania </p>
           </div>
-          <div class="col-4 text-center">
+          <div class="col-12 col-md-4 text-center">
             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
               <symbol xmlns="http://www.w3.org/2000/svg" id="handiplast" viewBox="0 0 24 24">
                 <g fill="none">
@@ -380,7 +387,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <!-- FORM NEWSLETTER -->
-        <div class="col-5 text-center">
+        <div class="col-12 col-md-8 col-lg-5 text-center">
           <h2 class="fw-bold">Iscriviti per rimanere sempre aggiornato</h2>
           <p class="pb-4">Iscriviti alla nostra newsletter per rimanere aggiornato su sconti e novità</p>
           <form name="newsletter-papere" method="post" netlify>
