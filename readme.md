@@ -67,7 +67,7 @@
 
 🎯 **Obiettivo**
 
-Seguire le indicazioni del *designer* per riprodurre il layout del prototipo che è stato fornito (`prototype.pdf`). Il prototipo è un file pdf ad alta risoluzione quindi potete fare zoom e leggere i dettagli. Ci sono le indicazioni da sinistra verso destra su come realizzare la versione mobile e desktop della stessa pagina unica (Landing Page), trovate la sequenza di quello che deve essere mostrato a schermo come se stesse navigando con il dito o con il mouse dall’alto verso il basso. Ci sono inoltre le indicazioni per i colori e la tipografia.
+Seguire le indicazioni del *designer* per riprodurre il layout del prototipo che è stato fornito ([prototype.pdf](public/prototype.pdf)). Il prototipo è un file pdf ad alta risoluzione quindi potete fare zoom e leggere i dettagli. Ci sono le indicazioni da sinistra verso destra su come realizzare la versione mobile e desktop della stessa pagina unica (Landing Page), trovate la sequenza di quello che deve essere mostrato a schermo come se stesse navigando con il dito o con il mouse dall’alto verso il basso. Ci sono inoltre le indicazioni per i colori e la tipografia.
 
 ### Milestone
 
@@ -77,7 +77,7 @@ Inizia individuando le macroaree del layout e identificando le aree simili per p
 
 2️⃣ **Milestone 2 (Contenuto)**
 
-Una volta realizzata la base, passa all'inserimento del contenuto seguendo fedelmente le istruzioni del `prototype.pdf`
+Una volta realizzata la base, passa all'inserimento del contenuto seguendo fedelmente le istruzioni del [prototype.pdf](public/prototype.pdf).
 
 3️⃣ **Milestone 3 (Interattività)**
 
