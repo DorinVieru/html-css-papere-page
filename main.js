@@ -1,5 +1,5 @@
-import './style.css'
-import './stylescss.scss'
+import './css/style.css'
+import './css/stylescss.scss'
 
 // import Swiper bundle with all modules installed
 import Swiper from 'swiper/bundle';
