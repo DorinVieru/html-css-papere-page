@@ -19,6 +19,10 @@ header {
         }
     }
 
+    .btn-hamburger{
+        border:1px solid #2e45cc !important;
+    }
+
     .nav-item {
         font-size: 16px;
         font-weight: 500;
@@ -33,7 +37,6 @@ header {
         position: relative;
         text-decoration: none;
 
-        &.active,
         &:hover {
             color: #04df6c;
             font-weight: 800;
@@ -92,22 +95,15 @@ header {
 // Recensioni
 .review {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
     padding: 20px;
     margin: 10px;
 }
 
-.review-text {
+.review-text, .review-rating {
     font-size: 1.2rem;
-    margin-bottom: 15px;
-    flex-grow: 1;
 }
 
 .review-rating .fa {
-    font-size: 1.2rem;
     color: #ddd;
 
     &.checked {
@@ -120,21 +116,6 @@ header {
     color: #777;
 }
 
-.carousel-indicators {
-    bottom: -50px;
-
-    [data-bs-target] {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background-color: #777;
-    
-        &.active {
-            background-color: #2e45cc;
-        }
-    }
-}
-
 // ACCORDION
 .col-my-accordion{
     button{
@@ -143,12 +124,14 @@ header {
     }
 }
 
+// QAULITA' PRODOTTO
 svg{
     color: #2e45cc;
     width: 50px;
     height: 90px;
 }
 
+// FOOTER
 .social-svg{
     svg{
         color: #04df6c;
@@ -157,6 +140,12 @@ svg{
         border: 1px solid #bebebe;
         border-radius: 50%;
         padding: 0 10px;
+        transition: transform 0.4s, color 0.4s;
+
+        &:hover {
+            transform: scale(1.2);
+            color: #2e45cc;
+        }
     }
 }
 

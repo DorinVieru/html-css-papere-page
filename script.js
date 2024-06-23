@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 */
 
+// SLIDER
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
