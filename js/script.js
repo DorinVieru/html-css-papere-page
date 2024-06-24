@@ -1,5 +1,5 @@
 /* FUNZIONE CHE MI PERMETTE DI CARICARE IL FILE SVG
-   Nel servizio esterno di Netlify, che recupera il mio progetto direttamente da github, non viene visualizzato correttamente il file symbols.svg che contiene le icone, di conseguenza questa funziona può funzionare correttamente solo in locale al momento.
+   Nel servizio esterno di Netlify, che recupera il mio progetto direttamente da github, non viene visualizzato correttamente il file symbols.svg che contiene le icone, di conseguenza questa funzione può essere utilizzabile correttamente solo in locale al momento.
 
 document.addEventListener("DOMContentLoaded", function () {
     // Effettuo una richiesta per il file symbols.svg
