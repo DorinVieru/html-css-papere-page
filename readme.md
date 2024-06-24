@@ -30,7 +30,7 @@
   <summary>Indice</summary>
   <ol>
     <li>
-      <a href="#argomenti-trattati">Multilanguage</a>
+      <a href="#multilanguage">Multilanguage</a>
     </li>
     <li>
       <a href="#argomenti-trattati">Argomenti trattati</a>
