@@ -20,13 +20,18 @@
     <br />
     <a href="https://github.com/DorinVieru/landing-page-product"><strong>Visualizza il codice »</strong></a> ● 
     <a href="https://paperamica.netlify.app/">Visualizza una Demo</a>
+    <br>
   </p>
 </div>
+
 
 <!-- INDICE -->
 <details>
   <summary>Indice</summary>
   <ol>
+    <li>
+      <a href="#argomenti-trattati">Multilanguage</a>
+    </li>
     <li>
       <a href="#argomenti-trattati">Argomenti trattati</a>
     </li>
@@ -48,6 +53,10 @@
   </ol>
 </details>
 
+<!-- Multilanguage -->
+## Multilanguage
+Read the README in other languages: [README-EN](README-EN.md).
+
 <!-- ARGOMENTI TRATTATI -->
 ## Argomenti trattati
 - HTML & CSS
@@ -63,7 +72,16 @@
 <!-- CONSEGNA -->
 ## Consegna del Progetto
 
-![screen-desktop-home](https://github.com/DorinVieru/landing-page-product/assets/146065546/5b8e2525-144d-42fd-af6a-cd5b1951715c)
+<div>
+  <h4>Desktop View</h4>
+  <img src="./public/screenshots/screen-desktop-home.png" alt="desktop-home" width="300" height="300">
+  <img src="./public/screenshots/screen-desktop-review-collection.png" alt="desktop-review-collection" width="300" height="300">
+  <img src="./public/screenshots/screen-desktop-footer.png" alt="desktop-footer" width="300" height="300">
+  <h4>Mobile View</h4>
+  <img src="./public/screenshots/screen-mobile-menu.png" alt="mobile-menu" width="200">
+  <img src="./public/screenshots/screen-mobile-review.png" alt="mobile-review" width="200">
+  <img src="./public/screenshots/screen-mobile-quality.png" alt="mobile-quality" width="200">
+</div>
 
 
 🎯 **Obiettivo**
@@ -125,12 +143,13 @@ Qualora vi venisse richiesto di installare un pacchetto (per esempio: Need to in
 <br>
 Successivamente vi chiederà di selezionare il framework, selezionate *Vanilla*, nel passaggio successivo come variante del framework selezionate *Javascript*.
 <br>
-Seguite le indicazioni del terminale e digitate in seguenza i comandi:
+Seguite le indicazioni del terminale e digitate il comando:
   ```
   cd nome_progetto
-  npm install
   ```
-Non è necessario digitare ora 'npm run dev'. Dopo npm install, è possibile aprire direttamente Visual Studio Code da terminale digitando il comando:
+Non è necessario digitare ora 'npm install' e 'npm run dev'.
+<br>
+Successivamente è possibile aprire direttamente Visual Studio Code da terminale digitando il comando:
   ```
   code .
   ```
@@ -141,25 +160,21 @@ Non è necessario digitare ora 'npm run dev'. Dopo npm install, è possibile apr
 _Qui di seguito potete trovare un esempio di come clonare la repo in locale, ma non è l'unico metodo. Qualora foste a conoscenza di un metodo migliore, utilizzatelo._
 
 1. Una volta all'interno di Visual Studio Code, aprite il terminale andando nel voca del menu 'Terminal' e poi 'New Terminal'
-2. Colnate la repo digitando il seguente comando
+2. Clonate la repo digitando il seguente comando
    ```
    git clone https://github.com/DorinVieru/landing-page-product.git
    ```
-3. Installate SASS
+3. Installate npm
    ```
-   npm add -D sass
+   npm install
    ```
-4. Installate Swiper (per lo slidere delle recensioni)
-   ```
-   npm install swiper
-   ```
-5. Successivamente potete avviare l'applicazione
+4. Successivamente potete avviare l'applicazione
    ```
    npm run dev
    ```
 Visualizzerete ancora il vostro index di partenza di Vite, in questo caso dovrete sostiruire l'index di dafault della vostra cartella di progetto con l'index della repo clonata.
 <br>
-Questo processo deve essere fatto per tutti i file (css, scss, js).
+Questo processo deve essere fatto per tutti i file (css, scss, js, json, ecc.).
 
 <p align="right">(<a href="#readme-top">torna all'inizio</a>)</p>
 
