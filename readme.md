@@ -63,7 +63,8 @@
 <!-- CONSEGNA -->
 ## Consegna del Progetto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![screen-desktop-home](https://github.com/DorinVieru/landing-page-product/assets/146065546/5b8e2525-144d-42fd-af6a-cd5b1951715c)
+
 
 🎯 **Obiettivo**
 
